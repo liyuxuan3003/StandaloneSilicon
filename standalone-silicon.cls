@@ -7,7 +7,7 @@
 \RequirePackage{xparse} 
 
 % -------------------------------- %
-% Load Documentclass <standalone>
+% Load document class <standalone>
 \LoadClass{standalone}
 
 % -------------------------------- %
