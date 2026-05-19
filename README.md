@@ -10,7 +10,7 @@ StandaloneSilicon的命名遵守"功能+同首字母元素名"的规则，Silico
 
 ## 引入方式
 
-StandaloneSilicon以Git子模块形式引入项目：
+StandaloneSilicon以Git子模块的形式引入项目
 
 ```bash
 git submodule add git@github.com:liyuxuan3003/StandaloneSilicon.git standalone-silicon
