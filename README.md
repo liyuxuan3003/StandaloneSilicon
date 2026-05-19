@@ -28,7 +28,7 @@ git submodule add git@github.com:liyuxuan3003/StandaloneSilicon.git standalone-s
 
 ## 最小示例
 
-搭配Minimus的完整图件示例：
+搭配Minimus的完整图件示例
 
 ```latex
 \makeatletter\def\input@path{{minimus}{standalone-silicon}}\makeatother
