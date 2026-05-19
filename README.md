@@ -41,8 +41,7 @@ git submodule add git@github.com:liyuxuan3003/StandaloneSilicon.git standalone-s
 
 \begin{document}
 \begin{tikzpicture}
-    \draw[->] (0,0) -- (2,1);
-    \node at (1,0.5) {$x$};
+    % ...
 \end{tikzpicture}
 \end{document}
 ```
