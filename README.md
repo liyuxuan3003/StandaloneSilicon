@@ -4,8 +4,6 @@
 
 StandaloneSilicon的命名遵守"功能+同首字母元素名"的规则，Silicon为第14号元素硅（Si）。
 
-若需要完整的模板工程，参见各Template仓库。
-
 推荐搭配Minimus使用：https://github.com/liyuxuan3003/Minimus。
 
 ## 引入方式
@@ -16,14 +14,35 @@ StandaloneSilicon以Git子模块的形式引入项目
 git submodule add git@github.com:liyuxuan3003/StandaloneSilicon.git standalone-silicon
 ```
 
-在主文件顶层指定输入路径：
+在主文件顶层指定输入路径
 
 ```latex
 \makeatletter\def\input@path{{standalone-silicon}}\makeatother
 ```
 
-使用文档类：
+使用文档类
 
 ```latex
 \documentclass{standalone-silicon}
+```
+
+## 最小示例
+
+搭配Minimus的完整图件示例：
+
+```latex
+\makeatletter\def\input@path{{minimus}{standalone-silicon}}\makeatother
+
+\documentclass{standalone-silicon}
+
+\usepackage{minimus-text}
+\usepackage{minimus-math}
+\usepackage{minimus-tikz}
+
+\begin{document}
+\begin{tikzpicture}
+    \draw[->] (0,0) -- (2,1);
+    \node at (1,0.5) {$x$};
+\end{tikzpicture}
+\end{document}
 ```
