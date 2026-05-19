@@ -4,7 +4,7 @@
 
 StandaloneSilicon的命名遵守"功能+同首字母元素名"的规则，Silicon为第14号元素硅（Si）。
 
-推荐搭配Minimus使用：https://github.com/liyuxuan3003/Minimus。
+推荐搭配Minimus使用：https://github.com/liyuxuan3003/Minimus
 
 ## 引入方式
 
