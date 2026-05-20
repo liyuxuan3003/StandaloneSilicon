@@ -9,6 +9,7 @@ StandaloneSilicon是LumosLaTeX计划的一部分：https://github.com/liyuxuan30
 推荐搭配Minimus使用：https://github.com/liyuxuan3003/Minimus
 
 ## 主要特点
+
 - 基于`standalone`，适用于创建独立的TikZ绘图。
 - 添加了中文字体和中文支持。
 
